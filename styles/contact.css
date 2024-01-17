@@ -17,17 +17,13 @@ body {
 #nav {
     position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
     width: 100%;
-    max-width: 1200px;
-    margin: auto;
     background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 #nav-image {
     height: 85px;
@@ -96,7 +92,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-left: 40px;
+    padding-left: 25px;
 }
 #intro h1 {
     color: black;
@@ -113,8 +109,9 @@ body {
 
 /* -------- Contact -------- */
 #contact {
-    background: orange;
+    background: white;
     height: 20vh;
+    padding-left: 25px;
 }
 .info {
     background: white;
@@ -125,8 +122,8 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.container {
-    max-width: 1200px; /* Adjust this value to suit your needs */
+/* .container {
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -135,4 +132,4 @@ body {
         max-width: 1200px;
         margin: auto;
     }
-}
+} */
