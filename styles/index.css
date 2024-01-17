@@ -23,8 +23,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);}
 #nav-image {
     height: 85px;
     width: 70px;
@@ -100,7 +99,7 @@ body {
     font-weight: lighter;
     font-size: 50px;
     text-align: center;
-    padding-top: 120px;
+    padding-top: 150px;
     color: #fdfdfd;
 }
 #intro p {
@@ -140,6 +139,10 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 20px;
     color: rgb(89, 82, 82);
+}
+#about-me p span.ins {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
 }
 #about-me p {
     font-size: 20px;
@@ -220,7 +223,7 @@ body {
 #footer {
     margin-top: 5%;
     background-color: #353535;
-    min-height: 20vh;
+    min-height: 15vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
